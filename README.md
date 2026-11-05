@@ -10,13 +10,12 @@
 ## 專案結構
 
 ```
-dcos/
-roadmap/
+docs/        # 相關文件
+roadmap/     # 目前進度
 src/tenzo/
 ├── core/    # Variable、Function、反向傳播
 └── ops/     # 具體運算（Square、Exp…）
 tests/       # 測試，結構鏡像 src/tenzo
-docs/decisions/  # 設計決策紀錄（ADR）
 ```
 
 依賴方向由上往下：`ops` → `core`。後續會依進度加入 `nn`、`optim` 與 `backend`。
