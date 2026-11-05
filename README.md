@@ -2,6 +2,8 @@
 
 從零開始實作的 tensor library，以 PyTorch 為參考目標。
 
+名稱 tenzo 取自 tensor + deZero，象徵從 deZero 開始逐步建構完整tensor library，同時 tenzo 為日文禪宗用語，代表寺廟裡負責掌管全寺飲食的人，象徵作為最堅固的基底，孕育著訓練框架的執行
+
 目前處於早期學習階段，依循《Deep Learning from Scratch 3》（deZero）逐步實作自動微分，
 設計上重視可維護性、可擴展性與穩定性。
 
