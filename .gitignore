@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 虛擬環境
+.venv/
+
+# 工具快取
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.hypothesis/
+
+# 測試與覆蓋率
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# 環境變數
+.env
